@@ -8,8 +8,9 @@ import {HousingLocation} from '../housinglocation';
   templateUrl: './housing-location.component.html',
   styleUrl: './housing-location.component.css',
 })
+  
 export class HousingLocationComponent {
-
+  
   @Input() housingLocation!: HousingLocation;
 
 }
